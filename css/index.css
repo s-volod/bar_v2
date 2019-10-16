@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Vollkorn&display=swap');
 
 body{
-	min-width: 980px;
+	max-width: 980px;
 	margin: auto;
+    border: 1px solid red;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+
 }
 
 
@@ -32,4 +36,44 @@ header h1{
 
 .header-title{
 	text-align: center;
+}
+
+/*ARTICLE START*/
+/* article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.preview-news-gallery, .preview-contacts-enroll{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    border: 2px solid red;
+}
+
+.a-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery-next, .gallery-back{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+
+article section h2{
+    text-align: center;
+}
+/*ARTICLE END*/
+
+/*FOOTER START*/
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+/*FOOTER END*/
+
+img{
+    display: block;
 }
