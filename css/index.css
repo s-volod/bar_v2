@@ -3,7 +3,6 @@
 body{
 	max-width: 980px;
 	margin: auto;
-    border: 1px solid red;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
 
@@ -48,12 +47,34 @@ header h1{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 5px;
-    border: 2px solid red;
+
+}
+
+img{
+    margin-left: 7%;
+    margin-bottom: 10px;
+}
+
+.preview-news, .preview-gallery, .preview-contacts, .preview-enroll{
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.preview-news-text{
+    position: relative;
+}
+
+.preview-news-text a{
+    position: absolute;
+    margin: 20px 0 0 20px;
+    border: 1px solid black;
+    padding: 7px;
 }
 
 .a-wrapper{
     display: flex;
     justify-content: space-around;
+    margin: 0 0 10px 0;
 }
 
 .gallery-next, .gallery-back{
