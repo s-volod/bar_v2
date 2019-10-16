@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="./css/index.css">
+	<title>Barbersop Version 2</title>
+</head>
+<body>
+	<div class="main-menu-wrapper"> <!--Меню зробити в всії версіях крім десктопу, щоб було постійно вверху як yandex i google-->
+		<nav class="main-menu">
+			<ul>
+				<li>Інформація</li>
+				<li>Новини</li>
+				<li>Прайс-лист</li>
+				<li>Магазин</li>
+				<li>Контакти</li>
+				<li>Вхід</li>
+			</ul>
+		</nav>
+	</div>
+	
+	<header id="header-main"> <!--В мобільні версії приховувати цей блок, крім h1 через CSS i JavaScript.Прописати два варіанти подій-->
+		<div class="h1-wrapper">
+			<h1>Barbershop<br> <span class="h1-text">&#9830; Borodinsky &#9830;</span></h1>
+		</div>
+		<div class="header-title-wrapper">
+			<div class="header-title">
+				<h2>Швидко</h2>
+				<p>&#9830;</p>
+				<p class="header-title-text">Ми робимо свою роботу швидко, Дві години пролитять швидко.</p>
+			</div>
+			<div class="header-title">
+				<h2>Круто</h2>
+				<p>&#9830;</p>
+				<p class="header-title-text">Забудьте, як ви стриглися раніше</p>
+			</div>
+			<div class="header-title">
+				<h2>Дорого</h2>
+				<p>&#9830;</p>
+				<p class="header-title-text">Наші майстри - професіонали своєї справи</p>
+			</div>
+		</div>
+	</header>
+
+	<article>
+		<section class="preview-news-gallery">
+			<div class="preview-news">
+				<div class="preview-news-text">
+					<h2>НОВИНИ</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tempori</p>
+					<p>!DATE!</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tempori</p>
+					<p>!DATE!</p>
+					<a href="#news.html">Всі новини</a>
+				</div>
+			</div>
+			<div class="preview-gallery">
+				<h2>ФОТОГАЛЕРЕЯ</h2>
+				<img src="./img/small-gallery.jpg" alt="Barbershop preview photo." width="400" height="400">
+				<a href="#photo.html">Назад</a>
+				<a href="#photo.html">Вперед</a>
+			</div>
+		</section>
+		<section class="preview-contacts-enroll">
+			<div class="preview-contacts">
+				<h2>Контактні дані</h2>
+				<p>Барбершоп &#9830;Borodinsky&#9830;</p>
+				<address>
+					Адреса: error 404 <br>
+					Тел: error 404
+				</address>
+				<p>Робочий час:</p>
+				<p>ПН-ПТ 10:00-19:00</p>
+				<p>СБ-НД 10:00-18:00</p>
+				<a href="#">Як проїхати</a>
+				<a href="#">Зворотній зв"язок</a>
+			</div>
+			<div class="preview-enroll">
+				<h2>ЗАПИСАТИСЯ</h2>
+				<p>Вкажіть бажану дату і час і ми з вами звяжемося</p>
+				<label for="date">
+					Дата<br>
+					<input type="date" id="date" required>
+				</label>
+				<label for="time">
+					Час<br>
+					<input type="time" id="time" required>
+				</label>
+				<label for="name">
+					Ваше ім'я<br>
+					<input type="text" id="name" required>
+				</label>
+				<label for="tel">
+					Телефон:<br>
+					<input type="tel" id="tel" required>
+				</label>
+				<button type="submit">Відправити</button>
+			</div>
+		</section>
+	</article>
+	<hr>
+	<footer>
+		<div class="footer-address">
+				<p>Барбершоп &#9830;Borodinsky&#9830;</p>
+				<address>
+					Адреса: error 404 <br>
+					Тел: error 404
+				</address>
+				<p>Робочий час:</p>
+				<p>ПН-ПТ 10:00-19:00</p>
+				<p>СБ-НД 10:00-18:00</p>
+		</div>
+		<div class="footer-social-button">
+			<ul>
+				<li>Facebook</li>
+				<li>Instagram</li>
+				<li>Telegram</li>
+			</ul>
+		</div>
+		<div class="footer-developer">
+			<p>РОЗРОБЛЕНО МНОЮ</p>
+		</div>
+	</footer>
+
+</body>
+</html>

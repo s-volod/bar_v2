@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Vollkorn&display=swap');
+
+body{
+	min-width: 980px;
+	margin: auto;
+}
+
+
+.main-menu ul{
+	list-style-type: none;
+	font-family: 'Fascinate Inline', cursive;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+
+header h1{
+	font-family: 'Vollkorn', serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.h1-wrapper{
+	display: flex;
+	justify-content: center;
+}
+
+.header-title-wrapper{
+	display: flex;
+	justify-content: space-around;
+}
+
+.header-title{
+	text-align: center;
+}
