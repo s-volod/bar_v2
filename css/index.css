@@ -58,15 +58,17 @@ img{
 .preview-news, .preview-gallery, .preview-contacts, .preview-enroll{
     border: 1px solid black;
     margin: 2px;
+    padding: 20px;
 }
 
 .preview-news-text{
     position: relative;
+    max-width: auto;
 }
 
 .preview-news-text a{
     position: absolute;
-    margin: 20px 0 0 20px;
+    margin: 7px 0 0 15px;
     border: 1px solid black;
     padding: 7px;
 }
@@ -85,6 +87,10 @@ img{
 
 article section h2{
     text-align: center;
+}
+
+.preview-contacts{
+    display: flex;
 }
 /*ARTICLE END*/
 
